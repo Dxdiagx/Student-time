@@ -188,18 +188,18 @@ public class İnterfaces extends javax.swing.JFrame {
         }
         // Komşuluk matrisini ekrana yazdır
         System.out.println("Komsuluk Matrisi:");
-        System.out.print(" ");
+        System.out.print("\t");
         for (int i = 0; i < dugumSayısı; i++) {
             if (i == 0) {
-                System.out.print(" ");
+    
                 for (int k = 0; k < dugumSayısı; k++) {
-                    System.out.print((k) + " ");
+                    System.out.print((k) + "\t");
                 }
-                System.out.println(" ");
+                System.out.println();
             }
-            System.out.print((i)+" ");
+            System.out.print((i)+"\t");
             for (int j = 0; j<dugumSayısı; j++) {
-                System.out.print(adjacencyMatrix[i][j] + " ");
+                System.out.print(adjacencyMatrix[i][j] + "\t");
             }
             System.out.println();
         }
